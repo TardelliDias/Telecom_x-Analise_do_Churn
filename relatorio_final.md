@@ -44,7 +44,7 @@ A EDA revelou insights importantes sobre a distribuição do Churn e suas relaç
 
     *   **Insight:** Clientes idosos são mais propensos a churnar, indicando a necessidade de estratégias de retenção específicas para este grupo.
 
-![Senior Citien](
+![Senior Citizen](https://github.com/TardelliDias/Telecom_x-Analise_do_Churn/blob/main/img/churn_senior_citizen.png)
 
 3.  **Relação entre `gender` e Churn:**
     *   Clientes femininas: ~**26.96%** de churn.
@@ -138,3 +138,4 @@ Com base nas análises realizadas, as seguintes recomendações podem ajudar a e
 
 
 6.  **Segmentação para Retenção:** Desenvolver campanhas de retenção personalizadas para diferentes segmentos de clientes, com base nos fatores de churn identificados. Por exemplo, oferecer incentivos de contrato mais longo para clientes mês a mês, ou reforçar o valor do suporte para aqueles que não o utilizam.
+
