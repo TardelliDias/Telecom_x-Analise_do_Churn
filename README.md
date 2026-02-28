@@ -2,7 +2,7 @@
 
 ## 📌 Descrição
 
-Este projeto foi desenvolvido para análisar a evasão dos clientes (churn) da **Telecom X** avaliando as variáveis categóricas e as variáveis numéricas.
+Este projeto foi desenvolvido para analisar a evasão dos clientes (churn) da **Telecom X** avaliando as variáveis categóricas e as variáveis numéricas.
 
 Por fim deveremos avaliar qual fator é determinante para o churn e qual estratégia deverá ser implementada para a diminuição da evasão.
 
@@ -46,7 +46,7 @@ Por fim deveremos avaliar qual fator é determinante para o churn e qual estrat�
 
 * Clientes com contas mensais mais altas apresentam uma ligeira, mas real propensão à evasão.
 
-* [Acessar o Relatório Final]()
+* [Acessar o Relatório Final](https://github.com/TardelliDias/Telecom_x-Analise_do_Churn/blob/main/relatorio_final.md)
 
 # 😁 Contato
 
@@ -55,3 +55,4 @@ Por fim deveremos avaliar qual fator é determinante para o churn e qual estrat�
 **LinkedIn:** https://www.linkedin.com/in/tardelli-dias/
 - - -
 📚 ***Projeto com fins educacionais.***
+
