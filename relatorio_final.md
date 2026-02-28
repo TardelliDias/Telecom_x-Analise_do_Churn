@@ -32,9 +32,9 @@ A EDA revelou insights importantes sobre a distribuição do Churn e suas relaç
 
 1.  **Distribuição de Churn:** Uma análise inicial mostrou a proporção de clientes que churnaram versus os que não churnaram através de gráficos de barras e pizza. Identificamos a presença de 224 valores vazios (' ') que afetavam a visualização inicial e foram posteriormente tratados. Após a limpeza, a distribuição ficou clara, mostrando a base de clientes que permanecem e os que evadem.
 
-![Churn Total](churn_total.png)
+![Churn Total](https://github.com/TardelliDias/Telecom_x-Analise_do_Churn/blob/main/img/churn_total.png)
 
-![Churn Pizza](churn_total_pie.png)
+![Churn Pizza](img/churn_total_pie.png)
 
 
 2.  **Relação entre `SeniorCitizen` e Churn:**
@@ -44,7 +44,7 @@ A EDA revelou insights importantes sobre a distribuição do Churn e suas relaç
 
     *   **Insight:** Clientes idosos são mais propensos a churnar, indicando a necessidade de estratégias de retenção específicas para este grupo.
 
-![Senior Citien](churn_por_idade.png)
+![Senior Citien](
 
 3.  **Relação entre `gender` e Churn:**
     *   Clientes femininas: ~**26.96%** de churn.
@@ -53,7 +53,7 @@ A EDA revelou insights importantes sobre a distribuição do Churn e suas relaç
 
     *   **Insight:** O gênero não se mostrou um fator preditivo significativo para o churn, com taxas muito próximas entre homens e mulheres.
 
-![Gender](churn_por_genero.png)
+![Gender](https://github.com/TardelliDias/Telecom_x-Analise_do_Churn/blob/main/img/churn_por_genero.png)
 
 4.  **Relação entre `Contract` e Churn:**
     *   Contratos **Mês a Mês** (`month-to-month`): **42.71%** de churn.
@@ -64,7 +64,7 @@ A EDA revelou insights importantes sobre a distribuição do Churn e suas relaç
 
     *   **Insight:** Existe uma forte correlação inversa entre a duração do contrato e o churn. Contratos de longo prazo são eficazes na retenção de clientes.
 
-![Contract](churn_tempo_contrato.png)
+![Contract](https://github.com/TardelliDias/Telecom_x-Analise_do_Churn/blob/main/img/churn_tempo_contrato.png)
 
 5.  **Relação entre `PaperlessBilling` e Churn:**
     *   Clientes **sem cobrança sem papel** (0): **16.38%** de churn.
@@ -73,33 +73,33 @@ A EDA revelou insights importantes sobre a distribuição do Churn e suas relaç
 
     *   **Insight:** Clientes que optam pela cobrança sem papel são mais propensos a churnar, sugerindo que este grupo pode ter expectativas diferentes ou ser mais sensível a outros fatores.
 
-![Paperless Billing](churn_tipo_cobranca.png)
+![Paperless Biling](https://github.com/TardelliDias/Telecom_x-Analise_do_Churn/blob/main/img/churn_tipo_cobranca.png)
 
 6.  **Relação entre Serviços e Churn (`phone_service`, `multiple_lines`, `internet_service`, `tech_support`, `streaming_tv`, `streaming_movies`):**
 
     *   **`internet_service`:** Clientes **sem o serviço de internet** têm uma taxa de churn de **7,43%**. Clientes **com internet DSL** têm **19%** de evasão. Clientes que possuem o serviço de **Fibra Ótica** têm a maior taxa de evasão **41,89%**.
 
-    ![Internet Service](churn_servico_internet.png)
+    ![Internet Service](https://github.com/TardelliDias/Telecom_x-Analise_do_Churn/blob/main/img/churn_servico_internet.png)
 
     *   **`tech_support`:** Clientes **sem suporte técnico** têm uma taxa de churn de **41.65%**, enquanto clientes **com suporte** têm apenas **15.20%**. Clientes sem serviço de internet (e, portanto, sem 'suporte técnico' para internet) têm a menor taxa de **7.43%**.
 
-    ![Tech Support](churn_suporte_tecnico.png)
+    ![Tech Support](https://github.com/TardelliDias/Telecom_x-Analise_do_Churn/blob/main/img/churn_suporte_tecnico.png)
 
     *   **`streaming_tv`:** Clientes **sem streaming TV** têm **33.54%** de churn, e clientes **com streaming TV** têm **30.11%**. Novamente, clientes sem serviço de internet têm **7.43%** de churn.
 
-    ![Streaming TV](churn_streaming_tv.png)
+    ![Streaming TV](https://github.com/TardelliDias/Telecom_x-Analise_do_Churn/blob/main/img/churn_streaming_tv.png)
 
     *   **`streaming_movies`:** Clientes **sem streaming de filmes** têm **33.73%** de churn, e clientes **com streaming de filmes** têm **29,95%**. Clientes que não possuem possuem o serviço têm **7.43%** de churn.
 
-    ![Streaming Movies](churn_streaming_Filmes.png)
+    ![Streaming Movies](https://github.com/TardelliDias/Telecom_x-Analise_do_Churn/blob/main/img/churn_streaming_Filmes.png)
 
     *   **`phone_services`:** Clientes **sem serviços telefônicos** representam **25%** de churn, e clientes **com serviços telefônicos** correspondem a **26,75%** de evasão.
 
-    ![Phone Services](churn_servico_telefonico.png)
+    ![Phone Services](https://github.com/TardelliDias/Telecom_x-Analise_do_Churn/blob/main/img/churn_servico_telefonico.png)
 
     *   **`multiple_lines`:** Clientes **sem multiplas linhas telefônicas** correspondem a **25,08%** de churn, clientes **com multiplas linhas telefônicas** representam **28,65%**. Clientes que não possuem o serviço telefônico tem **25%**. 
 
-    ![Multiple Lines](churn_linhas_multiplas.png)  
+    ![Multiple Lines](https://github.com/TardelliDias/Telecom_x-Analise_do_Churn/blob/main/img/churn_linhas_multiplas.png)  
 
     *   **Insights Gerais sobre Serviços:** Serviços de suporte (como `tech_support`) são cruciais para a retenção, diminuindo significativamente o churn. Outros serviços de entretenimento (streaming) têm um impacto menor ou mais complexo. A ausência de serviço de internet consistentemente leva a um churn mais baixo, o que pode indicar que esses clientes têm necessidades mais básicas e são mais fáceis de reter. O serviço de **Fibra Ótica** é um fator preocupante e deve ser dada uma atenção especial ao serviço.
 
@@ -135,5 +135,6 @@ Com base nas análises realizadas, as seguintes recomendações podem ajudar a e
 4.  **Estratégias Específicas para Idosos:** Investigar as necessidades e preferências dos clientes idosos. Considerar programas de treinamento, suporte técnico simplificado ou pacotes adaptados para melhorar sua experiência e reduzir o churn.
 
 5.  **Reavaliar Experiência de Cobrança Sem Papel:** Entender por que clientes que optam pela cobrança sem papel churnam mais. Pode ser necessário otimizar a experiência digital, garantir que as contas sejam claras e transparentes, ou oferecer canais de suporte digital mais eficazes.
+
 
 6.  **Segmentação para Retenção:** Desenvolver campanhas de retenção personalizadas para diferentes segmentos de clientes, com base nos fatores de churn identificados. Por exemplo, oferecer incentivos de contrato mais longo para clientes mês a mês, ou reforçar o valor do suporte para aqueles que não o utilizam.
