@@ -53,7 +53,9 @@ Por fim deveremos avaliar qual fator é determinante para o churn e qual estrat�
 **Nome:** Tardelli Dias<br>
 **E-mail:** tardelli.dias@gmail.com<br>
 **LinkedIn:** https://www.linkedin.com/in/tardelli-dias/
+**Discord:** https://discord.com/users/tardellif
 - - -
 📚 ***Projeto com fins educacionais.***
+
 
 
