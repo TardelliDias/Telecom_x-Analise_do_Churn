@@ -1,62 +1,116 @@
-# <h1 align='center'>Telecom X - Análise do Churn</h1>
+# 📊 Análise Exploratória de Churn de Clientes
 
-## 📌 Descrição
+## 🚀 Visão Geral
 
-Este projeto foi desenvolvido para analisar a evasão dos clientes (churn) da **Telecom X** avaliando as variáveis categóricas e as variáveis numéricas.
+Este projeto realiza uma análise exploratória de dados (EDA) para entender os fatores que influenciam o cancelamento de clientes (churn) em uma empresa de telecomunicações.
 
-Por fim deveremos avaliar qual fator é determinante para o churn e qual estratégia deverá ser implementada para a diminuição da evasão.
+O objetivo é identificar padrões, comportamentos e variáveis críticas que impactam a retenção de clientes.
 
-## 🏆 Objetivos
+---
 
-* Analisar a quantidade de evasão de clientes
-* Entender a correlação do churn com as variáveis 
-* Analisar o tempo de contrato e o valor gasto  
-* Analisar o perfil dos clientes
-* Analisar os produtos ofertados (internet, telefone, streaming)
-* Analisar os serviços ofertados (backup, suporte técnico)
-* Analisar as contas diárias
+## 🎯 Problema de Negócio
 
-## ✅ Status do Projeto
+A perda de clientes impacta diretamente a receita e o crescimento da empresa.
 
-✔️ Projeto concluído! 
+**Pergunta-chave:**
 
-## 💻 Tecnologias Utilizadas
+> Quais fatores estão mais associados ao churn de clientes?
 
-* `Python` - Linguagem base para o projeto
+---
 
-* `Pandas` - Biblioteca para análise e exploração dos dados
+## 🧠 Abordagem
 
-* `Seaborn Matplotlib` - Para visualização dos dados
+A análise foi conduzida utilizando técnicas de exploração e visualização de dados para extrair insights relevantes:
 
-* `Markdown` - Apresentação e documentação
+* Limpeza e tratamento dos dados
+* Análise univariada e bivariada
+* Identificação de correlações
+* Visualização de padrões
 
-* `Jupyter Notebook` - Ambiente de desenvolvimento e execução 
+---
 
-## 📊 Resultados
+## 🛠️ Tecnologias Utilizadas
 
-*   Na análise constatamos que quanto mais tempo de contrato, segurança online e suporte técnico de qualidade é menor a chance do cliente churnar.
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
 
-*   Por outro lado gastos mensais mais altos, ser um cliente idoso e a eficiência em alguns serviços estão associados a uma maior propensão ao churn.
+---
 
-# 📜 Conclusão
+## 📊 Etapas da Análise
 
-*   A duração do contrato é o fator mais crítico na retenção de clientes.
+### 🔍 1. Entendimento dos Dados
 
-*   Serviços como o suporte técnico êm um impacto substancial na redução do churn.
+* Estrutura do dataset
+* Tipos de variáveis
+* Verificação de inconsistências
 
-* Clientes com contas mensais mais altas apresentam uma ligeira, mas real propensão à evasão.
+---
 
-* [Acessar o Relatório Final](https://github.com/TardelliDias/Telecom_x-Analise_do_Churn/blob/main/relatorio_final.md)
+### 🧹 2. Tratamento de Dados
 
-# 😁 Contato
+* Tratamento de valores nulos
+* Conversão de tipos
+* Padronização de dados
 
-**Nome:** Tardelli Dias<br>
-**E-mail:** tardelli.dias@gmail.com<br>
-**LinkedIn:** https://www.linkedin.com/in/tardelli-dias/<br>
-**Discord:** https://discord.com/users/tardellif
-- - -
-📚 ***Projeto com fins educacionais.***
+---
 
+### 📈 3. Análise Exploratória (EDA)
 
+* Distribuição das variáveis
+* Relação entre churn e variáveis categóricas
+* Análise de correlação entre variáveis numéricas
+* Identificação de padrões de comportamento
 
+---
 
+## 💡 Principais Insights
+
+* Clientes com menor tempo de permanência apresentam maior churn
+* Contratos mensais estão associados a maior taxa de cancelamento
+* Clientes com menos serviços contratados tendem a cancelar mais
+* Fatores financeiros (como valor mensal) influenciam na decisão
+
+---
+
+## 📁 Estrutura do Projeto
+
+```id="l3kl0v"
+├── dados/
+├── notebooks/
+├── visualizacoes/
+└── README.md
+```
+
+---
+
+## 🚀 Possíveis Aplicações
+
+* Base para construção de modelos preditivos
+* Apoio à tomada de decisão estratégica
+* Criação de campanhas de retenção
+
+---
+
+## 🔮 Próximos Passos
+
+* Desenvolvimento de modelo preditivo (Machine Learning)
+* Integração com pipeline de dados
+* Visualização interativa com dashboards
+
+---
+
+## 👨‍💻 Autor
+
+**Tardelli Dias**<br>
+🔗 E-mail:** tardelli.dias@gmail.com<br>
+🔗 LinkedIn: https://www.linkedin.com/in/tardelli-dias/<br>
+🔗 Discord: https://discord.com/users/tardellif
+
+---
+
+## ⭐ Contribuição
+
+Sugestões e melhorias são bem-vindas!
