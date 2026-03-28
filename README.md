@@ -96,7 +96,7 @@ A análise foi conduzida utilizando técnicas de exploração e visualização d
 
 ## 🔮 Próximos Passos
 
-* Desenvolvimento de modelo preditivo (Machine Learning)
+* [Desenvolvimento de modelo preditivo (Machine Learning)](https://github.com/TardelliDias/Telecom-X-Pt.-2-Prevendo-o-Churn/blob/main/README.md)
 * Integração com pipeline de dados
 * Visualização interativa com dashboards
 
@@ -105,7 +105,7 @@ A análise foi conduzida utilizando técnicas de exploração e visualização d
 ## 👨‍💻 Autor
 
 **Tardelli Dias**<br>
-🔗 E-mail:** tardelli.dias@gmail.com<br>
+🔗 E-mail: tardelli.ti.brasil@gmail.com<br>
 🔗 LinkedIn: https://www.linkedin.com/in/tardelli-dias/<br>
 🔗 Discord: https://discord.com/users/tardellif
 
